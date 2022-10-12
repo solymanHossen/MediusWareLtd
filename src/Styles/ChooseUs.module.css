@@ -1,0 +1,33 @@
+.choseUsCard{
+  background: #F3F3F3;
+border-radius: 6px;
+padding: 24px;
+}
+.quality{
+  margin-top: 40px;
+  font-family: Open Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+
+color: #2B2B2B;
+}
+.qualitySmall{
+  font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #2B2B2B;
+
+}
+.oneImg{
+  position: relative;
+}
+/* .img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */

@@ -1,0 +1,20 @@
+.exContent{
+  font-family: Open Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 65px;
+margin-top: 24px;
+}
+
+.exContentSmall{
+  font-family: Open Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 24p;
+}
+.cardStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

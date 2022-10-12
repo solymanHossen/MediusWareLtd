@@ -1,0 +1,37 @@
+.cardProcess {
+  background: rgba(0, 96, 175, 0.1);
+  border-radius: 6px;
+  padding: 16px;
+  color: #0060AF;
+}
+
+.imgPostion {
+  position: absolute;
+  right: 0;
+  margin-top: 24px;
+}
+
+.smallCard { 
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.singleImg {
+  background: #0060AF;
+  padding: 5px 10px;
+  border: 1px solid #0060AF;
+  border-radius: 6px;
+}
+.postionRelative{
+  position: relative;
+}
+
+/* rsponsive */
+@media screen and (max-width: 767px) {
+  .imgPostion {
+   position: unset;
+    margin-top: 24px;
+    
+  }
+  }

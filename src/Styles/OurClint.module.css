@@ -1,0 +1,9 @@
+.cardImg{
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 96, 175, 0.1);
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+}

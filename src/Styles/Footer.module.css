@@ -1,0 +1,21 @@
+.bgImg{
+  background: url(../Assets/Rectangle\ 128.png) no-repeat center center fixed ;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+.paddingFooter{
+  padding: 48px 0px;
+}
+.mainLogo{
+ margin-bottom: 20px;
+ height: 40px;
+ max-width: 144px;
+}
+.iconsC{
+color:  #0060AF;
+margin-right: 12px;
+
+}
