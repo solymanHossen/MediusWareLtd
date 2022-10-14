@@ -17,12 +17,33 @@
   font-weight: 600;
   line-height: 22px;
   background: none;
-  border: 1px solid white;
-  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
   color: white !important;
-  padding: 10px 12px;
+  padding: 13px 26px;
   margin-top: 40px;
+
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
+
+.btnHero:hover{
+  background: rgba(55, 165, 55, 0.651);
+  color: white;
+  transition: 1s;
+}
+
+
+
+
+/* .btnHero:hover{
+  background: rgb(59, 223, 9);
+  border: 1px black;
+  color: rgba(0, 0, 0, 0.575) !important;
+  transition: 2s;  
+} */
 
 .imgSection:after {
   position: absolute;
@@ -59,7 +80,7 @@
   }
  }@media screen and (max-width: 639px) {
   .contentSection{
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 30px;
   }
@@ -77,3 +98,8 @@
     margin-bottom: 10px;
   }
  }
+
+ /* .btnHero:hover{
+  background: red;
+  transition: background 2s;
+ } */

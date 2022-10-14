@@ -14,7 +14,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+.colorFont2{
+  color: #464646;
+}
 /* font size */
 .navFontF {
   font-family: Open Sans;
@@ -27,6 +29,7 @@ body {
   font-size: 36px;
   font-weight: 500;
   line-height: 46px;
+  color:  #464646;
 }
 .servicesPFont{
   font-family: Open Sans;
@@ -45,6 +48,20 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
+}
+.fontHover{
+  font-family: Open Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+}
+.nameFontHover{
+  font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+
+
 }
 
 .cardHeaderFont {
@@ -67,7 +84,35 @@ text-align: left;
 
 /* padding */
 .navPadding {
-  padding: 25px 0px !important
+  padding: 34px 0px !important
+}
+.navPadding:hover{
+ 
+  color: #0060AF !important
+}
+/* img height */
+.imgHeight1{
+  height: 398px;
+}
+
+.heightWidth{
+  height: 64px;
+  width: 64px;
+  background: #0060AF;
+  border-radius: 6px;
+}
+/* .imgHeight2{
+  height: 134px;
+} */
+.imgHeight4{
+  /* height: 404px; */
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  
+}
+.imgHeight3{
+  height: 130px;
 }
 /* margin */
 .marginTop {
@@ -86,6 +131,22 @@ margin-bottom: 100px;
 .marginBottom2{
 margin-bottom: 24px;
 }
+.marginTopTest{
+  margin-top:76px !important
+ }
+.marginRightLeft{
+  
+}
+.pClintImg{
+  padding: 1px 16px;
+
+}
+/* width */
+.maxWidth{
+  max-width: 257px;
+  /* padding-right: 20px; */
+ 
+}
 /* bg color */
 .bgTechnology{
   background: linear-gradient(180deg, #F3F9F9 0%, rgba(238, 246, 253, 0) 100%);
@@ -100,13 +161,35 @@ margin-bottom: 24px;
  .gap-nav{
   gap: 40px;
  }
-}@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 991px) {
+  .flexDirection{
+    flex-direction: column !important;
+  }
+  }
+
+
+
+@media screen and (max-width: 767px) {
  .marginTopChose{
  margin-top: 24px;
  }
  .marginBottom{
   margin-bottom: 24px;
  }
+
+ .paddingZero{
+  padding: 0 !important;
+ }
+ .textAlignCenter{
+  text-align: center;
+ }
+ .gap-nav{
+  gap: 20px;
+ }
+ /* .justiFyContent{
+  justify-content: !important;
+ } */
 }
 
 
@@ -125,4 +208,9 @@ padding-left: 0 !important
   border-radius: 50%;
   padding: 5px;
   color: white;
+}
+
+a{
+  text-decoration: none !important;
+  color:  #464646 !important
 }

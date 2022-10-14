@@ -5,6 +5,11 @@
   justify-content: center;
   border: 2px solid #0060AF;
   border-radius: 50%;
+  background: none ;
+}
+.btnPa:hover{
+  background: #0060AF;
+  color: white;
 }
 
 .cardTestimonial{
@@ -15,6 +20,7 @@
   color: white;
   opacity: .5;
 }
+
 .cardTestimonialBig{
   background: #0060AF;
   border-radius: 6px;

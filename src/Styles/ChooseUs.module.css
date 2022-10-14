@@ -4,12 +4,12 @@ border-radius: 6px;
 padding: 24px;
 }
 .quality{
-  margin-top: 40px;
+  margin-top: 20px;
   font-family: Open Sans;
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
-
+margin-bottom: 8px;
 color: #2B2B2B;
 }
 .qualitySmall{
@@ -31,3 +31,7 @@ color: #2B2B2B;
   width: 100%;
   height: 100%;
 } */
+
+@media screen and (max-width: 767px) {
+ 
+}

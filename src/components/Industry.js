@@ -9,58 +9,58 @@ const Industry = () => {
         <div className='servicesFont mb-5'>Industry we serve</div>
       </div>
       <div className="row">
-        <div className="col-md-2 mb-4">
+        <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
-        </div> <div className="col-md-2 mb-4">
+        </div> <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>
           </div>
         </div>
-        <div className="col-md-2 mb-4">
+        <div className="col-xl-2 col-md-3 mb-4">
           <div className={styles.indusCard}>
             <img src={img1} alt="im1" />
             <div>Education</div>

@@ -22,7 +22,9 @@ const Process = () => {
                       <div className='servicesFont'>7+</div>
                       <div className='servicesPFont'>Year of Experience</div>
                     </div>
+                    <div>
                     <img src={img2} alt="img2" className={styles.imgPostion} />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -33,25 +35,33 @@ const Process = () => {
             <div className='servicesFont mb-4'>Process</div>
             <div className='servicesPFont colorFont'>How we reach your business goals. Check out our workflow.</div>
             <div className={styles.smallCard}>
+              <div className='d-flex align-items-center justify-content-center heightWidth'>
               <img src={img3} alt="img3" className={styles.singleImg} />
+              </div>
               <div className='ms-4'>
                 <div className='mb-2 servicesPFont'>Ideate</div>
                 <div>Turning your ideas into concepts</div>
               </div>
-            </div><div className={styles.smallCard}>
+            </div> <div className={styles.smallCard}>
+              <div className='d-flex align-items-center justify-content-center heightWidth'>
               <img src={img3} alt="img3" className={styles.singleImg} />
+              </div>
               <div className='ms-4'>
                 <div className='mb-2 servicesPFont'>Ideate</div>
                 <div>Turning your ideas into concepts</div>
               </div>
-            </div><div className={styles.smallCard}>
+            </div> <div className={styles.smallCard}>
+              <div className='d-flex align-items-center justify-content-center heightWidth'>
               <img src={img3} alt="img3" className={styles.singleImg} />
+              </div>
               <div className='ms-4'>
                 <div className='mb-2 servicesPFont'>Ideate</div>
                 <div>Turning your ideas into concepts</div>
               </div>
-            </div><div className={styles.smallCard}>
+            </div> <div className={styles.smallCard}>
+              <div className='d-flex align-items-center justify-content-center heightWidth'>
               <img src={img3} alt="img3" className={styles.singleImg} />
+              </div>
               <div className='ms-4'>
                 <div className='mb-2 servicesPFont'>Ideate</div>
                 <div>Turning your ideas into concepts</div>

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="container">
       {['lg'].map((expand) => (
-        <Navbar key={expand} expand={expand} className='navPadding ' >
+        <Navbar key={expand} expand={expand} className='' >
           <Container fluid>
             <Navbar.Brand href="#"><img src={logo} alt="logo-img" /></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -21,18 +21,18 @@ const NavBar = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                 <img src={logo} alt="logo" className='w-100' />
+                  <img src={logo} alt="logo" className='w-100' />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 gap-nav ">
 
-                  <Nav.Link href="#action1" className='navFontF'>Home</Nav.Link>
-                  <Nav.Link href="#action2" className='navFontF'>Services <span><AiOutlinePlus /></span></Nav.Link>
-                  <Nav.Link href="#action2" className='navFontF'>Project</Nav.Link>
-                  <Nav.Link href="#action2" className='navFontF'>Careers</Nav.Link>
-                  <Nav.Link href="#action2" className='navFontF'>Our team</Nav.Link>
-                  <Nav.Link href="#action2" className='navFontF'>Contract</Nav.Link>
+                  <Nav.Link href="/home" className='navFontF navPadding  '>Home</Nav.Link>
+                  <Nav.Link href="/services" className='navFontF navPadding '>Services <span><AiOutlinePlus /></span></Nav.Link>
+                  <Nav.Link href="projject" className='navFontF navPadding '>Project</Nav.Link>
+                  <Nav.Link href="#action2" className='navFontF navPadding '>Careers</Nav.Link>
+                  <Nav.Link href="#action2" className='navFontF navPadding '>Our team</Nav.Link>
+                  <Nav.Link href="#action2" className='navFontF navPadding '>Contract</Nav.Link>
 
                 </Nav>
 
